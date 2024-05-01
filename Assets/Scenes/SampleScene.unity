@@ -70367,11 +70367,11 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.09663762, y: -0.039531045}
-  m_Size: {x: 1.3356155, y: 0.29142827}
+  m_Offset: {x: -0.087113515, y: -0.029926825}
+  m_Size: {x: 1.3100646, y: 0.3032051}
   m_Direction: 1
 --- !u!95 &603980165
 Animator:
@@ -70434,7 +70434,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1177247920, guid: 67aa8dbb924552f4bb25b23fa7cfec5c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -71415,13 +71415,14 @@ GameObject:
   - component: {fileID: 778280210}
   - component: {fileID: 778280213}
   - component: {fileID: 778280214}
+  - component: {fileID: 778280215}
   m_Layer: 0
   m_Name: trap_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &778280210
 Animator:
   serializedVersion: 5
@@ -71570,6 +71571,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &778280215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778280209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f31874e6b7824f429c4b3eb0b5909ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageRadius: 2
+  damageAmount: 1
 --- !u!1 &784319309
 GameObject:
   m_ObjectHideFlags: 0
@@ -72159,11 +72174,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7626529710797539829, guid: 5da05c3e6b5aaf24dbad4afa44e7b565, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.49
+      value: 2.84
       objectReference: {fileID: 0}
     - target: {fileID: 7626529710797539829, guid: 5da05c3e6b5aaf24dbad4afa44e7b565, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.97
+      value: -2.63
       objectReference: {fileID: 0}
     - target: {fileID: 7626529710797539829, guid: 5da05c3e6b5aaf24dbad4afa44e7b565, type: 3}
       propertyPath: m_LocalPosition.z
@@ -72503,7 +72518,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1943152194, guid: 106c937932f14f74d9c58b388fd2ee91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -72607,8 +72622,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.088574186, y: -0.04080116}
-  m_Size: {x: 1.3397251, y: 0.2768372}
+  m_Offset: {x: -0.087113515, y: -0.029926825}
+  m_Size: {x: 1.3100646, y: 0.3032051}
   m_Direction: 1
 --- !u!1 &1111694475
 GameObject:
@@ -73182,11 +73197,11 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.09663762, y: -0.039531045}
-  m_Size: {x: 1.3356155, y: 0.29142827}
+  m_Offset: {x: -0.087113515, y: -0.029926825}
+  m_Size: {x: 1.3100646, y: 0.3032051}
   m_Direction: 1
 --- !u!95 &1137701212
 Animator:
@@ -73249,7 +73264,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1157959600, guid: dc35ce6a73ec8784794db9c99d15d0d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -82022,11 +82037,11 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.09663762, y: -0.039531045}
-  m_Size: {x: 1.3356155, y: 0.29142827}
+  m_Offset: {x: -0.087113515, y: -0.029926825}
+  m_Size: {x: 1.3100646, y: 0.3032051}
   m_Direction: 1
 --- !u!95 &2012856462
 Animator:
@@ -82089,7 +82104,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -532734275, guid: ced75f79ff58e374697cbdd47e3b6420, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

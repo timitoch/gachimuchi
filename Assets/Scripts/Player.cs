@@ -27,10 +27,13 @@ public class Player : MonoBehaviour
 
     private void HandleMovement()
     {
-        Vector2 inputVector = GameInput.Instance.GetMovementVector();
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+
+        Vector2 inputVector = new Vector2(moveHorizontal, moveVertical);
         inputVector = inputVector.normalized;
-        Debug.Log(inputVector);
-        rb.MovePosition(rb.position + inputVector * (movingSpeed * Time.fixedDeltaTime));
+
+        rb.MovePosition(rb.position + inputVector * movingSpeed * Time.fixedDeltaTime);
 
         if (Mathf.Abs(inputVector.x) > minMovingSpeed || Mathf.Abs(inputVector.y) > minMovingSpeed)
         {
@@ -40,8 +43,6 @@ public class Player : MonoBehaviour
         {
             isRunning = false;
         }
-
-        
     }
     public bool IsRunning()
     {
