@@ -19,35 +19,36 @@ public class Player : MonoBehaviour
     }
 
 
-    private void FixedUpdate()
-    {
+
+    //private void FixedUpdate()
+    //{
        
-        HandleMovement();
-    }
+    //    HandleMovement();
+    //}
 
-    private void HandleMovement()
-    {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+    //private void HandleMovement()
+    //{
+    //    float moveHorizontal = Input.GetAxis("Horizontal");
+    //    float moveVertical = Input.GetAxis("Vertical");
 
-        Vector2 inputVector = new Vector2(moveHorizontal, moveVertical);
-        inputVector = inputVector.normalized;
+    //    Vector2 inputVector = new Vector2(moveHorizontal, moveVertical);
+    //    inputVector = inputVector.normalized;
 
-        rb.MovePosition(rb.position + inputVector * movingSpeed * Time.fixedDeltaTime);
+    //    rb.MovePosition(rb.position + inputVector * movingSpeed * Time.fixedDeltaTime);
 
-        if (Mathf.Abs(inputVector.x) > minMovingSpeed || Mathf.Abs(inputVector.y) > minMovingSpeed)
-        {
-            isRunning = true;
-        }
-        else
-        {
-            isRunning = false;
-        }
-    }
-    public bool IsRunning()
-    {
-            return isRunning;
-    }
+    //    if (Mathf.Abs(inputVector.x) > minMovingSpeed || Mathf.Abs(inputVector.y) > minMovingSpeed)
+    //    {
+    //        isRunning = true;
+    //    }
+    //    else
+    //    {
+    //        isRunning = false;
+    //    }
+    //}
+    //public bool IsRunning()
+    //{
+    //        return isRunning;
+    //}
 
     public Vector3 GetPlayerScreenPosition()
     {

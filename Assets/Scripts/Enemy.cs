@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : Sound//MonoBehaviour
 {
     private bool isDamaging = false;
 
@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
         if (collision.CompareTag("Player"))
 
         {
+            PlaySound(0);
             isDamaging = true;
             HeartSystem.healh -= 1;
             isDamaging = false;

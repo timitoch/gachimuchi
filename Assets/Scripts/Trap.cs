@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Trap : MonoBehaviour
@@ -8,7 +7,6 @@ public class Trap : MonoBehaviour
     public int damageAmount = 1;
     Animator animator;
     [SerializeField] float range = 3f;
-    private bool isTrapActive = false;
     private bool isDamaging = false;
 
     private void Start()
@@ -22,14 +20,26 @@ public class Trap : MonoBehaviour
         while (true)
         {
             animator.SetTrigger("state1");
-            isTrapActive = true;
+            //isDamaging = false;
             yield return new WaitForSeconds(range);
             animator.SetTrigger("state2");
-            isDamaging = true;
+            //isDamaging = true;
             yield return new WaitForSeconds(range);
-            isDamaging = false;
         }
     }
 
-   
+    //public void DamagePlayer()
+    //{
+    //    if (isDamaging)
+    //    {
+    //        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, damageRadius);
+    //        foreach (Collider2D collider in colliders)
+    //        {
+    //            if (collider.CompareTag("Player"))
+    //            {
+    //                HeartSystem.healh -= damageAmount;
+    //            }
+    //        }
+    //    }
+    //}
 }

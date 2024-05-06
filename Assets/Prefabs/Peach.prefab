@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7845366012548532260}
   - component: {fileID: 1974562330825249489}
-  - component: {fileID: -6784352303748954258}
+  - component: {fileID: 6559195211214719073}
+  - component: {fileID: 3762968359429101425}
   m_Layer: 0
   m_Name: Peach
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6927586473727934264}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.0117774, y: -3.0208588, z: 0.01352383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.34063703, y: 1.562153, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -85,7 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-6784352303748954258
+--- !u!114 &6559195211214719073
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,7 +95,41 @@ MonoBehaviour:
   m_GameObject: {fileID: 6927586473727934264}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 561a608f80ba28144817a4291a5d10c9, type: 3}
+  m_Script: {fileID: 11500000, guid: de25f77beb98b6e41adf27e1dfb810b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotButton: {fileID: 0}
+--- !u!58 &3762968359429101425
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6927586473727934264}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.028061807, y: 0.29738396}
+  serializedVersion: 2
+  m_Radius: 0.20885861
