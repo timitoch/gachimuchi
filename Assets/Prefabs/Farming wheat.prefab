@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a504b7ba535e3468719bb42d6f98ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plant: {fileID: 705386569263063195, guid: fc21b5f2e38962d4eb534e7ca0811176, type: 3}
+  plant: {fileID: 4203888190267673727, guid: ff5f2b66228d4f04eb72f4d476352e5c, type: 3}
   growthDuration: 30
   wateringDuration: 1
   animator: {fileID: 0}

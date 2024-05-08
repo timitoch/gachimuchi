@@ -2,20 +2,42 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trap_anim : MonoBehaviour
+public class Trap_anim : Sound
 {
-    public float damageRadius = 2f;
-    public int damageAmount = 1;
+    private bool isDamaging = false;
 
-    public void DamagePlayer()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, damageRadius);
-        foreach (Collider2D collider in colliders)
-        {
-            if (collider.CompareTag("Player"))
+        
+            if (collision.CompareTag("Player"))
             {
-                HeartSystem.healh -= damageAmount;
-            }
+                PlaySound(0);
+                //StartDamage();
+                isDamaging = true;
+                HeartSystem.healh -= 1;
+        }
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            //StopDamage();
         }
     }
+
+
+    //// Метод для початку нанесення ушкоджень
+    //public void StartDamage()
+    //{
+    //    isDamaging = true;
+    //    HeartSystem.healh -= 1;
+    //}
+
+    //// Метод для зупинки нанесення ушкоджень
+    //public void StopDamage()
+    //{
+    //    isDamaging = false;
+    //}
 }

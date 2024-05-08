@@ -1,0 +1,730 @@
+fileFormatVersion: 2
+guid: d4fa0b6c0ddb29b4cbf1e67254ca116f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chikcen_Houses_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a02185d7b34d4418489944a18031b4
+      internalID: -373800128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4850d35177637814693002e69598308e
+      internalID: 1883652836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053e66d17b6b2f849849d4fb345d89d1
+      internalID: -197820791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb1e147249df9d41b65fefe525ade89
+      internalID: 1989091078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251d8a4d10ab25f4884a374cc8621d9c
+      internalID: -524359945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6568f3fafeeb74b4eb470e65d2d401bd
+      internalID: 272079946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_110
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f8dbd64b0cb1345b460658b9141025
+      internalID: -451346888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cca7463cd476f946a401240e4a88f24
+      internalID: -121021621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199dda722df42ef4d95f1ed159332be6
+      internalID: -1473804333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6313b8c997230634f934edc0ff3f543b
+      internalID: -260899637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_153
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba13f942ebc2c143be4adf08b71149f
+      internalID: 749491798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_155
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343f59f6575f28a4ba2a8b1aff4d73d3
+      internalID: -708151630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_157
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357493c4870d02e42932050d8b029ee5
+      internalID: -1251256475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988f63599e468984b8340185f005804e
+      internalID: 1449697716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_192
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bda3a482f40e57478344ff6d311c67e
+      internalID: -1039142179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_195
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14043cc225aeffc45a81438c4899c600
+      internalID: -554947014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_198
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9679139b5c143644788948080332d08d
+      internalID: 1829593563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_200
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd7a98f66dd31f42ba428e122de5fe7
+      internalID: 178793268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikcen_Houses_202
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f53b6d3828d5a04fbedba4ae651ff97
+      internalID: 1803269622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Chikcen_Houses_0: 332411278
+      Chikcen_Houses_1: 730999987
+      Chikcen_Houses_10: -373800128
+      Chikcen_Houses_100: 505304610
+      Chikcen_Houses_101: -1658485027
+      Chikcen_Houses_102: -524359945
+      Chikcen_Houses_103: -1971102293
+      Chikcen_Houses_104: 2075766685
+      Chikcen_Houses_105: 1119394584
+      Chikcen_Houses_106: 272079946
+      Chikcen_Houses_107: -1745423607
+      Chikcen_Houses_108: 1742398120
+      Chikcen_Houses_109: -24779135
+      Chikcen_Houses_11: 1024599701
+      Chikcen_Houses_110: -451346888
+      Chikcen_Houses_111: 1578930379
+      Chikcen_Houses_112: -634261038
+      Chikcen_Houses_113: -109670560
+      Chikcen_Houses_114: -2143685469
+      Chikcen_Houses_115: 1367182056
+      Chikcen_Houses_116: 521667882
+      Chikcen_Houses_117: 1232932488
+      Chikcen_Houses_118: 331303456
+      Chikcen_Houses_119: 547506105
+      Chikcen_Houses_12: -563337941
+      Chikcen_Houses_120: 1032540890
+      Chikcen_Houses_121: 1645040452
+      Chikcen_Houses_122: 81253193
+      Chikcen_Houses_123: -2060487993
+      Chikcen_Houses_124: 786040470
+      Chikcen_Houses_125: -1831866691
+      Chikcen_Houses_126: -1670175461
+      Chikcen_Houses_127: 279854400
+      Chikcen_Houses_128: 1833166456
+      Chikcen_Houses_129: -2085016931
+      Chikcen_Houses_13: 1494481265
+      Chikcen_Houses_130: 2008952313
+      Chikcen_Houses_131: -1873153467
+      Chikcen_Houses_132: -25833177
+      Chikcen_Houses_133: -89609690
+      Chikcen_Houses_134: -1825861984
+      Chikcen_Houses_135: -21526502
+      Chikcen_Houses_136: -1846287923
+      Chikcen_Houses_137: 837114498
+      Chikcen_Houses_138: 1241187312
+      Chikcen_Houses_139: -909494543
+      Chikcen_Houses_14: -1908552677
+      Chikcen_Houses_140: -787572785
+      Chikcen_Houses_141: -2109381913
+      Chikcen_Houses_142: -245033522
+      Chikcen_Houses_143: 1180998180
+      Chikcen_Houses_144: -121021621
+      Chikcen_Houses_145: 452592716
+      Chikcen_Houses_146: 2046922967
+      Chikcen_Houses_147: -1473804333
+      Chikcen_Houses_148: 69223745
+      Chikcen_Houses_149: 1288807912
+      Chikcen_Houses_15: -899964115
+      Chikcen_Houses_150: -260899637
+      Chikcen_Houses_151: 1753614094
+      Chikcen_Houses_152: 1865230083
+      Chikcen_Houses_153: 749491798
+      Chikcen_Houses_154: 916873418
+      Chikcen_Houses_155: -708151630
+      Chikcen_Houses_156: 1005448401
+      Chikcen_Houses_157: -1251256475
+      Chikcen_Houses_158: -617941099
+      Chikcen_Houses_159: -475290373
+      Chikcen_Houses_16: 1968065633
+      Chikcen_Houses_160: -1302951382
+      Chikcen_Houses_161: 1041030917
+      Chikcen_Houses_162: -1180656604
+      Chikcen_Houses_163: 1679184018
+      Chikcen_Houses_164: 1709035640
+      Chikcen_Houses_165: 1417057995
+      Chikcen_Houses_166: 516756473
+      Chikcen_Houses_167: 254618974
+      Chikcen_Houses_168: 1798483276
+      Chikcen_Houses_169: 391691580
+      Chikcen_Houses_17: 125619393
+      Chikcen_Houses_170: 1300085227
+      Chikcen_Houses_171: 112799338
+      Chikcen_Houses_172: -1635910967
+      Chikcen_Houses_173: 1573310475
+      Chikcen_Houses_174: 1863097238
+      Chikcen_Houses_175: 903331967
+      Chikcen_Houses_176: 1431103191
+      Chikcen_Houses_177: -1823482038
+      Chikcen_Houses_178: 1965284531
+      Chikcen_Houses_179: -1833059902
+      Chikcen_Houses_18: 1988450523
+      Chikcen_Houses_180: -1938474409
+      Chikcen_Houses_181: 673284927
+      Chikcen_Houses_182: -822148605
+      Chikcen_Houses_183: -114959605
+      Chikcen_Houses_184: -2120427514
+      Chikcen_Houses_185: -1065685783
+      Chikcen_Houses_186: 135686528
+      Chikcen_Houses_187: -1698862282
+      Chikcen_Houses_188: 1713768882
+      Chikcen_Houses_189: 1449697716
+      Chikcen_Houses_19: 1529833670
+      Chikcen_Houses_190: 90008707
+      Chikcen_Houses_191: 1806236553
+      Chikcen_Houses_192: -1039142179
+      Chikcen_Houses_193: 1207365765
+      Chikcen_Houses_194: 83481943
+      Chikcen_Houses_195: -554947014
+      Chikcen_Houses_196: 2023754407
+      Chikcen_Houses_197: 1639656526
+      Chikcen_Houses_198: 1829593563
+      Chikcen_Houses_199: 785985676
+      Chikcen_Houses_2: 28037133
+      Chikcen_Houses_20: 1749627485
+      Chikcen_Houses_200: 178793268
+      Chikcen_Houses_201: -604090177
+      Chikcen_Houses_202: 1803269622
+      Chikcen_Houses_203: 1524730643
+      Chikcen_Houses_21: -368855275
+      Chikcen_Houses_22: 1917366457
+      Chikcen_Houses_23: -1161517391
+      Chikcen_Houses_24: 1976544687
+      Chikcen_Houses_25: -2146409383
+      Chikcen_Houses_26: -2017231718
+      Chikcen_Houses_27: -1646894068
+      Chikcen_Houses_28: -706449965
+      Chikcen_Houses_29: 620267877
+      Chikcen_Houses_3: 268674120
+      Chikcen_Houses_30: 1909741600
+      Chikcen_Houses_31: -2081778407
+      Chikcen_Houses_32: -1804767922
+      Chikcen_Houses_33: -1321512345
+      Chikcen_Houses_34: -399790721
+      Chikcen_Houses_35: 974197324
+      Chikcen_Houses_36: -764897960
+      Chikcen_Houses_37: -543308984
+      Chikcen_Houses_38: -302978273
+      Chikcen_Houses_39: 150117515
+      Chikcen_Houses_4: 1879651138
+      Chikcen_Houses_40: 793990676
+      Chikcen_Houses_41: 76373221
+      Chikcen_Houses_42: 1623346113
+      Chikcen_Houses_43: 2068123860
+      Chikcen_Houses_44: -1353168135
+      Chikcen_Houses_45: -669648573
+      Chikcen_Houses_46: -203134881
+      Chikcen_Houses_47: 1532899229
+      Chikcen_Houses_48: -43105029
+      Chikcen_Houses_49: -1210388172
+      Chikcen_Houses_5: 1534979230
+      Chikcen_Houses_50: 1121699731
+      Chikcen_Houses_51: -426619723
+      Chikcen_Houses_52: 787580401
+      Chikcen_Houses_53: -79945709
+      Chikcen_Houses_54: 386776470
+      Chikcen_Houses_55: -1048102730
+      Chikcen_Houses_56: 1894832492
+      Chikcen_Houses_57: 1200228003
+      Chikcen_Houses_58: -636800287
+      Chikcen_Houses_59: -2081986162
+      Chikcen_Houses_6: -1585479164
+      Chikcen_Houses_60: -1080581605
+      Chikcen_Houses_61: 1307966112
+      Chikcen_Houses_62: -1971000374
+      Chikcen_Houses_63: -877849337
+      Chikcen_Houses_64: 1200537278
+      Chikcen_Houses_65: 1244751485
+      Chikcen_Houses_66: 673564480
+      Chikcen_Houses_67: 210709549
+      Chikcen_Houses_68: -1702701560
+      Chikcen_Houses_69: -1620278772
+      Chikcen_Houses_7: -474713869
+      Chikcen_Houses_70: 483229552
+      Chikcen_Houses_71: -2088142048
+      Chikcen_Houses_72: -1014682856
+      Chikcen_Houses_73: 382453682
+      Chikcen_Houses_74: 829545079
+      Chikcen_Houses_75: 169394374
+      Chikcen_Houses_76: 308352868
+      Chikcen_Houses_77: 214728235
+      Chikcen_Houses_78: -1710628630
+      Chikcen_Houses_79: -1773689118
+      Chikcen_Houses_8: 1156307873
+      Chikcen_Houses_80: 841425885
+      Chikcen_Houses_81: 1658854145
+      Chikcen_Houses_82: 2134257659
+      Chikcen_Houses_83: 1895275094
+      Chikcen_Houses_84: 823325209
+      Chikcen_Houses_85: 235890417
+      Chikcen_Houses_86: -224187697
+      Chikcen_Houses_87: 177043291
+      Chikcen_Houses_88: -665992316
+      Chikcen_Houses_89: -1338045851
+      Chikcen_Houses_9: -491055793
+      Chikcen_Houses_90: 1883652836
+      Chikcen_Houses_91: -957900869
+      Chikcen_Houses_92: 1237159676
+      Chikcen_Houses_93: 253419740
+      Chikcen_Houses_94: -197820791
+      Chikcen_Houses_95: 480567167
+      Chikcen_Houses_96: -1005836000
+      Chikcen_Houses_97: -958430324
+      Chikcen_Houses_98: 1989091078
+      Chikcen_Houses_99: -1760294235
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

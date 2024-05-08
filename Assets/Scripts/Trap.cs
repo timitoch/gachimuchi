@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Trap : MonoBehaviour
+public class Trap : Sound //MonoBehaviour
 {
     public float damageRadius = 2f;
     public int damageAmount = 1;
@@ -15,31 +15,21 @@ public class Trap : MonoBehaviour
         StartCoroutine(TrapAnimation());
     }
 
-    IEnumerator TrapAnimation()
+    private IEnumerator TrapAnimation()
     {
         while (true)
         {
-            animator.SetTrigger("state1");
-            //isDamaging = false;
-            yield return new WaitForSeconds(range);
-            animator.SetTrigger("state2");
-            //isDamaging = true;
-            yield return new WaitForSeconds(range);
+            isDamaging = !isDamaging;
+            yield return new WaitForSeconds(3f);
         }
     }
 
-    //public void DamagePlayer()
-    //{
-    //    if (isDamaging)
-    //    {
-    //        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, damageRadius);
-    //        foreach (Collider2D collider in colliders)
-    //        {
-    //            if (collider.CompareTag("Player"))
-    //            {
-    //                HeartSystem.healh -= damageAmount;
-    //            }
-    //        }
-    //    }
-    //}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player") && isDamaging)
+        {
+            PlaySound(0);
+            HeartSystem.healh -= 1;
+        }
+    }
 }
