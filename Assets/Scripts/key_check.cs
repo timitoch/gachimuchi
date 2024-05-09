@@ -4,11 +4,12 @@ using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+
 public class key_check : MonoBehaviour
 {
     private Collider2D Collider2D;
     private Animator animator;
-    private MonoBehaviour monoBehaviour;
 
     private void Start()
     {
@@ -23,14 +24,45 @@ public class key_check : MonoBehaviour
             animator.SetTrigger("Opened");
             Collider2D.enabled = false;
             Player.key_count = 0;
-            StartCoroutine(scenelod());
+            StartCoroutine(SceneLoad(other.gameObject));
         }
     }
-    IEnumerator scenelod()
+
+    IEnumerator SceneLoad(GameObject player)
     {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene("Level 1");
 
+        // поточна сцена
+        string currentScene = SceneManager.GetActiveScene().name;
+
+        // наступна
+        string nextScene = "";
+
+        switch (currentScene)
+        {
+            case "Level 1":
+                nextScene = "Level 2";
+                break;
+            case "Level 2":
+                nextScene = "Level 3";
+                break;
+            case "Level 3":
+                nextScene = "Level 4";
+                break;
+            case "Level 4":
+                nextScene = "Level 5";
+                break;
+            default:
+                Debug.Log("Немає наступної сцени");
+                break;
+        }
+
+        
+        if (nextScene != "")
+        {
+            
+           
+            SceneManager.LoadScene(nextScene);
+        }
     }
 }
-
