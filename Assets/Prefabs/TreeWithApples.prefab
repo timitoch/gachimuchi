@@ -95,8 +95,8 @@ GameObject:
   - component: {fileID: 2763910655344818240}
   - component: {fileID: 1762258447640183166}
   - component: {fileID: 6570958585127986074}
-  - component: {fileID: 8283359576874407220}
   - component: {fileID: 4099266740443375188}
+  - component: {fileID: 7429632543543437499}
   m_Layer: 0
   m_Name: TreeWithApples
   m_TagString: Untagged
@@ -195,27 +195,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8283359576874407220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4987702465917358730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6229bc1831d9c142b2eca3429517e52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  treeHp: 2
-  player: {fileID: 0}
-  rage: 1
-  peachPrefab: {fileID: 7468405176660163804, guid: 5f96d551e5dbd764f9455e183a75d636, type: 3}
-  applePrefab: {fileID: 7468405176660163804, guid: 5f96d551e5dbd764f9455e183a75d636, type: 3}
-  spawnPoints:
-  - {fileID: 7872667644755669829}
-  - {fileID: 2713429403151072617}
-  - {fileID: 5947866340386561327}
 --- !u!70 &4099266740443375188
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -251,6 +230,26 @@ CapsuleCollider2D:
   m_Offset: {x: 0.007416397, y: 0.23886022}
   m_Size: {x: 1.1657826, y: 0.8519385}
   m_Direction: 1
+--- !u!114 &7429632543543437499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987702465917358730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8418955a9ada7a479da4e290800e0de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeHp: 2
+  player: {fileID: 0}
+  rage: 0.5
+  FruitPrefab: {fileID: 7468405176660163804, guid: 5f96d551e5dbd764f9455e183a75d636, type: 3}
+  spawnPoints:
+  - {fileID: 7872667644755669829}
+  - {fileID: 2713429403151072617}
+  - {fileID: 5947866340386561327}
 --- !u!1 &5947866340386561327
 GameObject:
   m_ObjectHideFlags: 0

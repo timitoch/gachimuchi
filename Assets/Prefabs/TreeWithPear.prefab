@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6952817411390546367}
   - component: {fileID: 7108663838199210421}
   - component: {fileID: 9008431026844417548}
-  - component: {fileID: 1168187733335637495}
   - component: {fileID: 191490958278284548}
   - component: {fileID: 3500372103710088641}
+  - component: {fileID: 6063671631304520717}
   m_Layer: 0
   m_Name: TreeWithPear
   m_TagString: Untagged
@@ -112,27 +112,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1168187733335637495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841729482482301997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9512bb09673dc7e4aadc204e6ccc7d5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  treeHp: 2
-  player: {fileID: 0}
-  rage: 0.5
-  peachPrefab: {fileID: 9158479502281546543, guid: b2533c81fa1e1584d837f91ef736a860, type: 3}
-  pearPrefab: {fileID: 9158479502281546543, guid: b2533c81fa1e1584d837f91ef736a860, type: 3}
-  spawnPoints:
-  - {fileID: 3403560649490483446}
-  - {fileID: 3011543081948642783}
-  - {fileID: 1510749114707611910}
 --- !u!114 &191490958278284548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,6 +163,26 @@ CapsuleCollider2D:
   m_Offset: {x: 0.007416397, y: 0.23886022}
   m_Size: {x: 1.1657826, y: 0.8519385}
   m_Direction: 1
+--- !u!114 &6063671631304520717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841729482482301997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8418955a9ada7a479da4e290800e0de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeHp: 2
+  player: {fileID: 0}
+  rage: 1
+  FruitPrefab: {fileID: 9158479502281546543, guid: b2533c81fa1e1584d837f91ef736a860, type: 3}
+  spawnPoints:
+  - {fileID: 3403560649490483446}
+  - {fileID: 3011543081948642783}
+  - {fileID: 1510749114707611910}
 --- !u!1 &1510749114707611910
 GameObject:
   m_ObjectHideFlags: 0

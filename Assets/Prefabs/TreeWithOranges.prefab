@@ -94,10 +94,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3297446964825136526}
   - component: {fileID: 3401621580770151626}
-  - component: {fileID: 2627818737856471509}
   - component: {fileID: 3194946690690387850}
   - component: {fileID: 8474735787560995427}
   - component: {fileID: 3407687409989142169}
+  - component: {fileID: 2540047869917956843}
   m_Layer: 0
   m_Name: TreeWithOranges
   m_TagString: Untagged
@@ -175,27 +175,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2627818737856471509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3784420702950663049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2b927a97d18c8f42b1a6e8744035478, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  treeHp: 2
-  player: {fileID: 0}
-  rage: 0.5
-  peachPrefab: {fileID: 6541062219362109893, guid: 890530a5f68a11847ba83fb98bb7af18, type: 3}
-  applePrefab: {fileID: 6541062219362109893, guid: 890530a5f68a11847ba83fb98bb7af18, type: 3}
-  spawnPoints:
-  - {fileID: 2200165395818086757}
-  - {fileID: 4331590018599559317}
-  - {fileID: 5866485415142177524}
 --- !u!95 &3194946690690387850
 Animator:
   serializedVersion: 5
@@ -268,6 +247,26 @@ MonoBehaviour:
   m_Center: {x: 0.01590538, y: 0.23123968, z: 0}
   m_Area: 1
   m_AffectedAgents: ffffffff
+--- !u!114 &2540047869917956843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3784420702950663049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8418955a9ada7a479da4e290800e0de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeHp: 2
+  player: {fileID: 0}
+  rage: 1
+  FruitPrefab: {fileID: 6541062219362109893, guid: 890530a5f68a11847ba83fb98bb7af18, type: 3}
+  spawnPoints:
+  - {fileID: 2200165395818086757}
+  - {fileID: 4331590018599559317}
+  - {fileID: 5866485415142177524}
 --- !u!1 &4331590018599559317
 GameObject:
   m_ObjectHideFlags: 0
