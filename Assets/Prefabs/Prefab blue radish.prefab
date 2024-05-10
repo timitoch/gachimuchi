@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5923020154596852251}
   - component: {fileID: 412972476759656420}
   - component: {fileID: 8376191061502534952}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab blue radish
   m_TagString: Untagged
   m_Icon: {fileID: 0}

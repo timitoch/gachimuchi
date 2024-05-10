@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7527990479477405478}
   - component: {fileID: 8423009590151588330}
   - component: {fileID: 1565957661848253317}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab  well
   m_TagString: Untagged
   m_Icon: {fileID: 0}

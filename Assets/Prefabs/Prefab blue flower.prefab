@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5670504874257413643}
   - component: {fileID: 1458372378352521134}
   - component: {fileID: 2913567422012858225}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab blue flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5774054127945559030}
   - component: {fileID: 3941244534166942592}
   - component: {fileID: 6456223739951424878}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab pear
   m_TagString: Untagged
   m_Icon: {fileID: 0}

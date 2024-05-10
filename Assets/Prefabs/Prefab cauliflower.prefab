@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 346572071776715470}
   - component: {fileID: 7436923641653292399}
   - component: {fileID: 4283919402462901108}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab cauliflower
   m_TagString: Untagged
   m_Icon: {fileID: 0}

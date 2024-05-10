@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6073487760390243143}
   - component: {fileID: 2774521328584783511}
   - component: {fileID: 855490149393712497}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab apple
   m_TagString: Untagged
   m_Icon: {fileID: 0}

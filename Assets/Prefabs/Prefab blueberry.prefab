@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8687306150251935006}
   - component: {fileID: 3766385483528914205}
   - component: {fileID: 8475435280850033294}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab blueberry
   m_TagString: Untagged
   m_Icon: {fileID: 0}

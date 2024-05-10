@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1655890213054307401}
   - component: {fileID: 5695653379040908181}
   - component: {fileID: 7164201602865752631}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab berry
   m_TagString: Untagged
   m_Icon: {fileID: 0}

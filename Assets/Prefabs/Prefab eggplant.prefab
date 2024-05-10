@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7601795665804692574}
   - component: {fileID: 6541929177109505420}
   - component: {fileID: 3564406275025041314}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab eggplant
   m_TagString: Untagged
   m_Icon: {fileID: 0}

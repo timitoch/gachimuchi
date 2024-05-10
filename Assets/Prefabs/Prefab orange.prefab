@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2807532106885477884}
   - component: {fileID: 3721817997061795646}
   - component: {fileID: 789101608635754542}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}

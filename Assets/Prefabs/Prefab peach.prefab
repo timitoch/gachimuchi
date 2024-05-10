@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8044661029033263202}
   - component: {fileID: 3121502701258365026}
   - component: {fileID: 3807740161096951848}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab peach
   m_TagString: Untagged
   m_Icon: {fileID: 0}

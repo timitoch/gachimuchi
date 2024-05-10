@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5107604253263082387}
   - component: {fileID: 2957463848185730642}
   - component: {fileID: 8026607346695375982}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab blue star
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8218349247519987728}
   - component: {fileID: 5864747560839792674}
   - component: {fileID: 9029024595374616206}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab cabbage
   m_TagString: Untagged
   m_Icon: {fileID: 0}

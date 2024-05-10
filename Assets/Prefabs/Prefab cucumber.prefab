@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8561663803091363920}
   - component: {fileID: 3181370385843110635}
   - component: {fileID: 3120640103742818583}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab cucumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}

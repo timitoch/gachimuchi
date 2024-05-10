@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 545328246288850439}
   - component: {fileID: 6786875457676253747}
   - component: {fileID: 8820652049488495881}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prefab grapes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
