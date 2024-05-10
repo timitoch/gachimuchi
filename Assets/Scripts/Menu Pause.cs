@@ -13,16 +13,33 @@ public class MenuPause : MonoBehaviour
     public GameObject stopButton;
     private bool panalCheack;
 
-    private void Start()
-    {
-        PlaySound();
-    }
+
+    //
+    //animztion 
+    public Animator buttonAnimator;// Animatorfff
+
     public void PauseButtonPressed()
     {
         panalCheack = true;
         pausePanel.SetActive(true);
+        StartCoroutine(AfterAnimation());
         Time.timeScale = 0f;
     }
+
+    IEnumerator AfterAnimation()
+    {
+        buttonAnimator.SetTrigger("click_on");
+        yield return new WaitForSecondsRealtime(buttonAnimator.GetCurrentAnimatorStateInfo(0).length);
+        
+    }
+
+    //
+
+    private void Start()
+    {
+        PlaySound();
+    }
+    
     public void ContinueButtonPressed()
     {
         panalCheack = false;
@@ -68,4 +85,8 @@ public class MenuPause : MonoBehaviour
     {
         audioSource.PlayOneShot(clip);
     }
+
+
+    
+    
 }

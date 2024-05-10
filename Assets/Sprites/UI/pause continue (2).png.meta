@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 205fa04c45f653a49883e68e432ee668
+guid: a4eb224c14f8a504686b99601ddd0cd6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pause continue 2_0
+      name: pause continue (2)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d52f48185e1a64d9671c57c9e6af2f
-      internalID: -500700100
+      spriteID: 7a463cea9929fcd4c9915e616babb07e
+      internalID: -187665768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pause continue 2_1
+      name: pause continue (2)_1
       rect:
         serializedVersion: 2
         x: 48
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b93e7daf2c8b4d4aa7291ff1bdfbba1
-      internalID: -520821235
+      spriteID: 465e253c5a2fdd14080eb0fc3555074e
+      internalID: -838466294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pause continue 2_2
+      name: pause continue (2)_2
       rect:
         serializedVersion: 2
         x: 0
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bb7fd4127ceffb4492f433ba96d927c
-      internalID: -832324986
+      spriteID: 27325edacc4386e499dbe39c76bee1f4
+      internalID: -1559438068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pause continue 2_3
+      name: pause continue (2)_3
       rect:
         serializedVersion: 2
         x: 48
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b685435ff208ab4ead2236637a8c9ca
-      internalID: 351562967
+      spriteID: 17a450c900f41df4d88562ef4b01320c
+      internalID: 812866480
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pause continue 2_0: -500700100
-      pause continue 2_1: -520821235
-      pause continue 2_2: -832324986
-      pause continue 2_3: 351562967
+      pause continue (2)_0: -187665768
+      pause continue (2)_1: -838466294
+      pause continue (2)_2: -1559438068
+      pause continue (2)_3: 812866480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
