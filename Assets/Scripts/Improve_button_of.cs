@@ -5,18 +5,20 @@ using UnityEngine.UI;
 
 public class Improve_button_of : MonoBehaviour
 {
-    public Slider slider;
+    private bool soundOn = false;
 
+    public Slider slider;
     public AudioClip clip;
     public AudioSource audioSource;
 
+
     Animator animator;
-    private bool stateOfButton = false; // true == on // false == of
+    private bool stateOfButton = true; // true == on // false == of
     private void Start()
     {
-        PlaySound();
+        
         animator = GetComponent<Animator>();
-        slider.value = 0.01f;
+        slider.value = 0.008f;
     }
     private void Update()
     {
@@ -33,14 +35,21 @@ public class Improve_button_of : MonoBehaviour
             AudioListener.volume = 0;
             stateOfButton = true;
         }
-        else
+        else 
         {
+            
+            
             animator.SetTrigger("ButtonOff");
             Improve_slider_off.slider.SetTrigger("ButtonOff");
             animator.ResetTrigger("ButtonOn");
             Improve_slider_off.slider.ResetTrigger("ButtonOn");
             AudioListener.volume = 1;
             stateOfButton = false;
+            if (!soundOn)
+            {
+                PlaySound();
+                soundOn = true;
+            }
 
         }
     }

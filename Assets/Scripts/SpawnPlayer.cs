@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnPlayer : MonoBehaviour
 {
+
     private void Start()
     {
         GameObject player = GameObject.FindWithTag("Player");
