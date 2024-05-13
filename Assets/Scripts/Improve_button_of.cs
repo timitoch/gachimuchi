@@ -55,6 +55,8 @@ public class Improve_button_of : MonoBehaviour
     }
     public void PlaySound()
     {
-        audioSource.PlayOneShot(clip);
+        audioSource.clip = clip;
+        audioSource.loop = true;
+        audioSource.Play();
     }
 }

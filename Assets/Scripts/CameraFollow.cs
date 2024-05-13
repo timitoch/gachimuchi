@@ -6,31 +6,42 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform player; // об'єкт гравця, за яким слідкує камера
     public Vector3 offset; // відстань між камерою та гравцем
-    public Vector3 targetPosition; // позиція, до якої камера повинна переміститися
-    public float transitionTime = 2.0f; // час переходу
+    public Vector3 targetPositionLevel1; // позиція, до якої камера повинна переміститися на рівні 1
+    public Vector3 targetPositionLevel2; // позиція, до якої камера повинна переміститися на рівні 2
+    public float transitionTimeLevel1 = 2.0f; // час переходу на рівні 1
+    public float transitionTimeLevel2 = 2.0f; // час переходу на рівні 2
+    public float cameraSizeLevel1 = 5.0f; // розмір камери на рівні 1
+    public float cameraSizeLevel2 = 7.0f; // розмір камери на рівні 2
     private bool isMovingToTarget = false; // чи виконується корутина
 
     void Start()
     {
         if (SceneManager.GetActiveScene().name == "Level 1")
         {
-            StartCoroutine(StartAfterDelay(1)); // Запускаємо корутину після затримки в 3 секунди
+            Camera.main.orthographicSize = cameraSizeLevel1;
+            StartCoroutine(StartAfterDelay(1, targetPositionLevel1, transitionTimeLevel1)); // Запускаємо корутину після затримки в 1 секунду
+        }
+
+        if (SceneManager.GetActiveScene().name == "Level 2")
+        {
+            Camera.main.orthographicSize = cameraSizeLevel2;
+            StartCoroutine(StartAfterDelay(1, targetPositionLevel2, transitionTimeLevel2));
         }
     }
 
-    IEnumerator StartAfterDelay(float delay)
+    IEnumerator StartAfterDelay(float delay, Vector3 targetPosition, float transitionTime)
     {
         yield return new WaitForSeconds(delay);
-        StartCoroutine(MoveToTarget());
+        StartCoroutine(MoveToTarget(targetPosition, transitionTime));
     }
 
-    IEnumerator MoveToTarget()
+    IEnumerator MoveToTarget(Vector3 targetPosition, float transitionTime)
     {
         isMovingToTarget = true;
         float t = 0;
         Vector3 startingPos = transform.position;
 
-        // Переміщення камери до targetPosition протягом 2 секунд
+        // Переміщення камери до targetPosition протягом заданого часу
         while (t < transitionTime)
         {
             t += Time.deltaTime;
@@ -43,7 +54,7 @@ public class CameraFollow : MonoBehaviour
         t = 0;
         startingPos = transform.position;
 
-        // Повернення камери до гравця протягом 2 секунд
+        // Повернення камери до гравця протягом заданого часу
         while (t < transitionTime)
         {
             t += Time.deltaTime;
